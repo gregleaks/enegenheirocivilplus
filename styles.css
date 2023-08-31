@@ -1,0 +1,53 @@
+/* Estilos para o cabeçalho, navegação e rodapé */
+header, footer {
+  background-color: #007bff;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* Estilos para a seção de calculadoras */
+main {
+  padding: 20px;
+}
+
+.estrutura-calculator{
+  background-color: #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.estrutura-calculator h3 {
+  margin-top: 0;
+}
+
+.estrutura-calculator a {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 20px;
+  background-color: #007bff;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 3px;
+}
+
+.estrutura-calculator a:hover {
+  background-color: #0056b3;
+}
